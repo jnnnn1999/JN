@@ -5,11 +5,11 @@ int main (){
     int N,count=0;
     cout << "Enter the first:";
     cin >> text1;
-    cout << "Enter the first:";
+    cout << "Enter the secound:";
     cin >> text2;
     cout << "Enter N:";
     cin >> N;
-    while(count<N){
+    while(count<=N){
         if(count%2==0){
             cout << text1 <<" ";
         }        
